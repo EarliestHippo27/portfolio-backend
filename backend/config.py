@@ -12,4 +12,4 @@ class Config:
   SESSION_COOKIE_SAMESITE="Lax"
   SESSION_TYPE = "sqlalchemy"
   SESSION_PERMANENT = True
-  PERMANENT_SESSION_LIFETIME=timedelta(minutes=1)
+  PERMANENT_SESSION_LIFETIME=timedelta(days=3)
